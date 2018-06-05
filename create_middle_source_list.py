@@ -18,7 +18,7 @@ print '<html> <title> Tencent Middle Source List </title>'
 print '<body>'
 print '<h1> Tencent Middle Source List as of ' + str(currentDT) + '</h1>'
 print '<table border=1>'
-print '<th> Number </th><th> IP Address </th><th> Datetime </th>'
+print '<th> Count </th><th> IP Address </th><th> Datetime </th>'
 for document in cursor:
 	print '<tr>'
 	print '<td>' + str(counter) + '</td><td>' + document['ip'] + '</td><td> ' + str(currentDT) + '</td>'
